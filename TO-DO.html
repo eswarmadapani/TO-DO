@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <video autoplay muted loop id="background-video">
+        <source src="mylivewallpapers-com-Tunnel-Drift-FHD.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="To-Do-Img/images/icon.png" alt="icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file for task handling -->
+    <script src="script.js"></script>
+</body>
+</html>
